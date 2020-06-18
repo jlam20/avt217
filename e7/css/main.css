@@ -1,8 +1,23 @@
 * {
- margin: 0;
- padding: 0;
+ margin: 100;
+ padding: 100;
  box-sizing: border-box;
 }
 body {
+  margin: 50px 400px 50px 400px;
   font-family: 'Spartan', sans-serif;
+  background-color: #A5C5C3;
+}
+h1, h2, h3 {
+  color: #007872;
+}
+h4 {
+  color: #429F9E;
+}
+.intro {
+  font-style: italic;
+  font-weight: bold;
+}
+.desc {
+  color: #474747;
 }
