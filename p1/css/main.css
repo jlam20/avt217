@@ -22,7 +22,7 @@ h2, li {
 }
 li {
   display: inline;
-  text-align: right;
+  margin: 10px;
 }
 img {
   max-width: 100%;
