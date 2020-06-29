@@ -5,19 +5,24 @@
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: futura-pt, sans-serif;
 }
 header, footer {
   background-color: black;
   color: white;
   padding: 25px 100px;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
 h2, li {
   color: #EFEFEF
 }
 li {
   display: inline;
-  text-align: left;
+  text-align: right;
 }
 img {
   max-width: 100%;
@@ -27,8 +32,8 @@ img {
   height: auto;
   margin: 10px;
 }
-.footer {
+.credit {
   color: #C2C2C2;
-  text-align: left;
-  font-size: italic;
+  text-align: right;
+  font-style: italic;
 }
