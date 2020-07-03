@@ -1,6 +1,6 @@
 * {
- margin: 100;
- padding: 100;
+ margin: 0;
+ padding: 0;
  box-sizing: border-box;
 }
 body {
@@ -9,5 +9,16 @@ body {
   background-color: #A5C5C3;
 }
 h1 {
+  width: 75vw;
+  margin: 25px auto;
   color: #007872;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  float: left;
 }
