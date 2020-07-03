@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  }
+body {
+  margin: 0;
+  background-color: #dddddd;
+}
+/* layout 1 */
+.board {
+  width: 800px;
+  margin: 50px auto;
+}
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  float: left;
+}
+.black {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: left;
+}
+/* layout 2 */
+.grid {
+  width: 680px;
+  margin: 10px auto;
+}
+.header {
+  background-color: red;
+  width: 650px;
+  height: 80px;
+  float: left;
+  margin: 5px;
+}
+.rectangle {
+  background-color: red;
+  width: 650px;
+  height: 20px;
+  float: left;
+  margin: 5px;
+}
+.column1 {
+  background-color: red;
+  width: 210px;
+  height: 500px;
+  float: left;
+  margin: 5px;
+}
+.column2 {
+  background-color: red;
+  width: 210px;
+  height: 500px;
+  float: left;
+  margin: 5px;
+}
+.column3 {
+  background-color: red;
+  width: 210px;
+  height: 500px;
+  float: left;
+  margin: 5px;
+}
+.footer {
+  background-color: red;
+  width: 650px;
+  height: 80px;
+  float: left;
+  margin: 5px;
+}
+/* layout 2 */
+.blog {
+  width: auto;
+  margin: 100px 0px 100px 25px;
+  display: flow-root;
+}
+.head {
+  background-color: red;
+  width: 1000px;
+  height: 180px;
+  float: left;
+  margin: 5px;
+}
+.content {
+  background-color: red;
+  width: 800px;
+  height: 550px;
+  float: left;
+  margin-top: 100px;
+  margin-right: 10px;
+}
+.sidenote {
+  background-color: red;
+  width: 195px;
+  height: 270px;
+  float: left;
+  margin-top: 100px;
+  margin-right: 10px;
+}
+.caption {
+  background-color: red;
+  width: 800px;
+  height: 50px;
+  float: left;
+  margin-top: 10px;
+}
