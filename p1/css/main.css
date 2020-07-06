@@ -16,16 +16,22 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: right;
-}
-h2, li {
-  color: #EFEFEF
-}
-li {
+  color: #EFEFEF;
   display: inline;
   margin: 10px;
 }
+h2, nav {
+  color: #EFEFEF;
+}
+h3 {
+  color: #C3073F;
+  font-style: oblique;
+}
 img {
   max-width: 100%;
+}
+.tracks .tour {
+  color: #EFEFEF;
 }
 .resize {
   width: 2vw;
