@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: futura-pt, sans-serif;
+}
+body {
+  margin: 0;
+  font-family: futura-pt, sans-serif;
+}
+header, footer {
+  background-color: black;
+  color: white;
+  padding: 25px 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+h2, nav {
+  color: #EFEFEF;
+  display: inline;
+  margin: 10px;
+}
+h1 {
+  color: #C3073F;
+  font-style: bold;
+}
+h3 {
+  color: #C3073F;
+  font-style: bold;
+}
+h4 {
+  color: #EFEFEF;
+  font-size: oblique
+}
+img {
+  max-width: 100%;
+}
+.tracks .tour {
+  color: #EFEFEF;
+}
+.resize {
+  width: 2vw;
+  height: auto;
+  margin: 10px;
+}
+.credit {
+  color: #C2C2C2;
+  text-align: right;
+  font-style: italic;
+}
