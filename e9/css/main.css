@@ -107,27 +107,35 @@ body {
 }
 /* in-class demo */
 .demo {
-  width: auto;
+  width: 500px;
+}
+.sec1 {
+  display: flow-root;
+}
+.sec2 {
+  display: flow-root;
+}
+.sec3 {
   display: flow-root;
 }
 .square {
   background-color: purple;
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   float: left;
-  margin: 25px
+  margin: 12.5px;
 }
 .vrec {
   background-color: purple;
   width: 100px;
-  height: 175px;
+  height: 225px;
   float: left;
-  margin: 25px;
+  margin: 12.5px;
 }
-.vrec {
+.hrec {
   background-color: purple;
-  width: 175px;
+  width: 225px;
   height: 100px;
   float: left;
-  margin: 25px;
+  margin: 12.5px;
 }
