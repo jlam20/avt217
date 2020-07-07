@@ -108,6 +108,7 @@ body {
 /* in-class demo */
 .demo {
   width: 500px;
+  margin: auto;
 }
 .sec1 {
   display: flow-root;
