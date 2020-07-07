@@ -112,12 +112,13 @@ body {
 }
 .sec1 {
   display: flow-root;
+  width: 500px;
 }
 .sec2 {
-  display: flow-root;
+  width: 125px;
 }
 .sec3 {
-  display: flow-root;
+  width: 500px
 }
 .square {
   background-color: purple;
