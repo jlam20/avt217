@@ -20,13 +20,13 @@ hr {
   border: none;
 }
 h1 {
-  font-family: 'Lora', serif;
-  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 43px;
   text-align: center;
   color: #654321;
 }
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 18px;
   text-align: center;
   margin-right: 5px;
