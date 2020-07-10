@@ -22,7 +22,6 @@ hr {
 h1 {
   font-family: 'Lora', serif;
   font-size: 45px;
-  margin: auto;
   text-align: center;
   color: #654321;
 }
@@ -37,7 +36,7 @@ h3 {
   font-family: 'Lora', serif;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #654321;
 }
 p {
@@ -53,7 +52,7 @@ p {
   header {
     width: 400px;
     writing-mode: horizontal-tb;
-    margin-bottom: -20px;
+    margin-bottom: -50px;
   }
   body, p {
     width: 400px;
