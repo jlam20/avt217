@@ -41,12 +41,27 @@ img {
   color: #EFEFEF;
 }
 .resize {
-  width: 2vw;
+  width: 20px;
   height: auto;
   margin: 10px;
 }
 .credit {
   color: #C2C2C2;
+  font-size: 12px;
   text-align: right;
   font-style: italic;
+}
+
+/* responsive design */
+@media screen and (max-width: 700px) {
+  .resize {
+    margin: 5px;
+  }
+  .icons {
+    text-align: center;
+  }
+  .credit {
+    margin-top: 10px;
+    text-align: center;
+  }
 }
