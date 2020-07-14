@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+.body {
+  width: 400px;
+  height: 800px;
+  background-color: black;
+  border: 5px solid silver;
+  border-radius: 35px;
+  margin: 100px 0 0 100px;
+  position: relative;
+}
+.camera {
+  width: 15px;
+  height: 15px;
+  background-color: #555555;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(200px - 7.5px);
+  top: 40px;
+}
+.speaker {
+  width: 75px;
+  height: 10px;
+  background-color: #777777;
+  border-radius: 7.5px;
+  position: absolute;
+  left: 226.5px;
+  top: 165px;
+}
