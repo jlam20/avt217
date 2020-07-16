@@ -4,21 +4,28 @@
  box-sizing: border-box;
 }
 body {
-  margin: 30px;
   font-family: 'Spartan', sans-serif;
   background-color: #A5C5C3;
 }
 h1 {
-  width: 75vw;
   margin: 25px auto;
   color: #007872;
 }
 main {
   width: 75vw;
-  margin: 25px auto;
+  margin: 25px 0 25px 150px;
   display: flow-root;
 }
 .col {
   width: 50%;
   float: left;
+}
+.directions {
+  margin-top: 10px;
+}
+li {
+  margin-top: 10px;
+}
+h3 {
+  margin: 30px 0 20px 0;
 }
