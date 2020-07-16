@@ -1,33 +1,49 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 100px;
   padding: 0;
   }
-
-.body {
-  width: 400px;
-  height: 800px;
+.handle {
+  border: 15px solid black;
+  width: 130px;
+  height: 110px;
+  left: -65px;
+  top: -260px;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  position: absolute;
+}
+.cap {
+  width: 110px;
+  height: 50px;
   background-color: black;
-  border: 5px solid silver;
-  border-radius: 35px;
-  margin: 100px 0 0 100px;
+  border-radius: 20px 20px 3px 3px;
+  top: -190px;
+  left: -55px;
+  position: absolute;
+}
+.lip {
+  width: 110px;
+  height: 20px;
+  background-color: silver;
+  border-radius: 5px;
+  top: -140px;
+  left: -55px;
+  position: absolute;
+}
+.neck {
+  width: 110px;
+  height: 30px;
+  background-color: black;
+  top: -120px;
+  left: -55px;
+  position: absolute;
+}
+.bottle {
+  width: 200px;
+  height: 600px;
+  background-color: black;
+  border-radius: 65px 65px 10px 10px;
+  margin: auto;
   position: relative;
-}
-.camera {
-  width: 15px;
-  height: 15px;
-  background-color: #555555;
-  border-radius: 50%;
-  position: absolute;
-  left: calc(200px - 7.5px);
-  top: 40px;
-}
-.speaker {
-  width: 75px;
-  height: 10px;
-  background-color: #777777;
-  border-radius: 7.5px;
-  position: absolute;
-  left: 226.5px;
-  top: 165px;
 }
