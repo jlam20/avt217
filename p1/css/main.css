@@ -13,11 +13,10 @@ header, footer {
   padding: 25px 100px;
 }
 nav {
-  display: flex;
   justify-content: space-between;
   align-items: right;
 }
-h2, nav {
+h2, li {
   color: #EFEFEF;
   display: inline;
   margin: 10px;
