@@ -6,38 +6,68 @@
 body {
   margin: 0;
   font-family: futura-pt, sans-serif;
+  background-color: #1A1A1D
 }
-header, footer {
+header {
+  width: 100%;
   background-color: black;
-  color: white;
-  padding: 25px 100px;
+  padding: 15px 100px;
+  position: fixed;
 }
-nav {
-  justify-content: space-between;
-  align-items: right;
+.header-home {
+  width: 100%;
+  padding: 15px 100px;
 }
-h2, li {
+footer {
+  background-color: black;
+  padding: 15px 100px;
+}
+.footer-home {
+  padding: 15px 100px;
+}
+.nav {
+  text-align: right;
+  position: relative;
+  top: -30px;
+}
+li {
+  font-size: 20px;
   color: #EFEFEF;
   display: inline;
   margin: 10px;
 }
 h1 {
   color: #C3073F;
-  font-style: bold;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  color: #EFEFEF;
+  /* display: inline; */
+  margin: 10px;
 }
 h3 {
   color: #C3073F;
   font-style: bold;
+  font-size: 20px
 }
 h4 {
   color: #EFEFEF;
-  font-size: oblique
+  font-size: 16px;
+  font-style: oblique;
 }
 img {
   max-width: 100%;
 }
-.tracks .tour {
+.about {
   color: #EFEFEF;
+  font-size: 16px
+}
+.tracks {
+  color: #EFEFEF;
+  font-size: 16px;
 }
 .resize {
   width: 20px;
@@ -50,9 +80,47 @@ img {
   text-align: right;
   font-style: italic;
 }
+.album-img-l {
+  width: 400px;
+  text-align: left;
+  margin-left: 200px;
+}
+.album-img-r {
+  width: 400px;
+  text-align: left;
+  margin-left: 200px;
+}
+.tour {
+  /* position: relative; */
+  color: #EFEFEF;
+  font-size: 16px
+}
+.tour-info {
+  text-align: center;
+}
+.date {
+  /* position: absolute; */
+  font-size: 16px;
+  font-weight: bold;
+  color: #C3073F;
+  text-align: center;
+}
+.venue {
+  /* position: absolute; */
+  font-size: 16px;
+  color: #EFEFEF;
+  text-align: center;
+}
+.location {
+  /* position: absolute; */
+  font-size: 16px;
+  font-style: italic;
+  color: #EFEFEF;
+  text-align: center;
+}
 
 /* responsive design */
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   .resize {
     margin: 5px;
   }
@@ -63,4 +131,4 @@ img {
     margin-top: 10px;
     text-align: center;
   }
-}
+} */
