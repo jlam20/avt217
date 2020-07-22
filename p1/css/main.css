@@ -8,15 +8,26 @@ body {
   font-family: futura-pt, sans-serif;
   background-color: #1A1A1D
 }
+.body-home {
+  background: url(../images/concert6.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
 header {
   width: 100%;
+  height: 100px;
   background-color: black;
   padding: 15px 100px;
   position: fixed;
+  top: 0;
+  left: 0;
 }
 .header-home {
   width: 100%;
+  height: 100px;
   padding: 15px 100px;
+  background-color: transparent;
 }
 footer {
   background-color: black;
@@ -24,50 +35,83 @@ footer {
 }
 .footer-home {
   padding: 15px 100px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+}
+.footer-space {
+  margin-top: 100px;
 }
 .nav {
   text-align: right;
   position: relative;
-  top: -30px;
+  top: -48px;
+}
+nav li {
+    display: inline;
+}
+a:link, a:visited {
+  color: #EFEFEF;
+  text-decoration: none;
+}
+a:hover {
+  color: #C3073F;
+  text-decoration: none;
+}
+a:active {
+  color: #EFEFEF;
+  text-decoration: none;
+}
+.current-page {
+  text-decoration: line-through #C3073F;
+}
+main {
+  display: flow-root;
 }
 li {
   font-size: 20px;
   color: #EFEFEF;
-  display: inline;
   margin: 10px;
+  list-style-type: none;
 }
 h1 {
   color: #C3073F;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+  margin-top: 200px;
 }
 h2 {
   font-size: 40px;
   color: #EFEFEF;
-  /* display: inline; */
   margin: 10px;
+  font-weight: normal;
 }
 h3 {
   color: #C3073F;
-  font-style: bold;
-  font-size: 20px
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
 }
 h4 {
   color: #EFEFEF;
   font-size: 16px;
+  font-weight: normal;
   font-style: oblique;
+  text-align: center;
 }
 img {
   max-width: 100%;
 }
 .about {
   color: #EFEFEF;
-  font-size: 16px
-}
-.tracks {
-  color: #EFEFEF;
   font-size: 16px;
+  margin: 100px 35px 100px 35px;
+}
+.col {
+  width: 50%;
+  float: left;
 }
 .resize {
   width: 20px;
@@ -80,18 +124,53 @@ img {
   text-align: right;
   font-style: italic;
 }
+.background {
+  width: 80%;
+  height: 500px;
+  background-color: #1A1A1D;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+.background-tour {
+  width: 50%;
+  background-color: #1A1A1D;
+  margin: 0 auto;
+}
+.col-album {
+  width: 50%;
+  float: left;
+  margin-bottom: 200px;
+}
+.col-tracks {
+  width: 50%;
+  float: left;
+  margin-bottom: 200px;
+}
+.album-img {
+  background: url(../images/concert8.jpg) no-repeat center center;
+  background-size: 100%;
+}
 .album-img-l {
   width: 400px;
-  text-align: left;
-  margin-left: 200px;
+  bottom: 50px;
+  /* margin-left: 200px; */
 }
 .album-img-r {
   width: 400px;
-  text-align: left;
-  margin-left: 200px;
+  bottom: 50px;
+  /* margin-left: 200px; */
+}
+.tracks {
+  color: #EFEFEF;
+  font-size: 16px;
+  list-style-type: decimal;
+}
+.tour-img {
+  background: url(../images/concert7.jpg) no-repeat center center;
+  background-size: 100%;
 }
 .tour {
-  /* position: relative; */
   color: #EFEFEF;
   font-size: 16px
 }
@@ -99,26 +178,40 @@ img {
   text-align: center;
 }
 .date {
-  /* position: absolute; */
   font-size: 16px;
   font-weight: bold;
   color: #C3073F;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+.date-start {
+  font-size: 16px;
+  font-weight: bold;
+  color: #C3073F;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: -10px;
 }
 .venue {
-  /* position: absolute; */
   font-size: 16px;
   color: #EFEFEF;
   text-align: center;
+  margin-bottom: -10px;
 }
 .location {
-  /* position: absolute; */
   font-size: 16px;
   font-style: italic;
   color: #EFEFEF;
   text-align: center;
 }
-
+.location-end {
+  font-size: 16px;
+  font-style: italic;
+  color: #EFEFEF;
+  text-align: center;
+  margin-bottom: 50px;
+}
 /* responsive design */
 /* @media screen and (max-width: 700px) {
   .resize {
