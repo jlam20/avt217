@@ -17,7 +17,7 @@ body {
 header {
   width: 100%;
   height: 100px;
-  background-color: black;
+  background-color: #1A1A1D;
   padding: 15px 100px;
   position: fixed;
   top: 0;
@@ -30,7 +30,7 @@ header {
   background-color: transparent;
 }
 footer {
-  background-color: black;
+  background-color: #1A1A1D;
   padding: 15px 100px;
 }
 .footer-home {
@@ -57,13 +57,11 @@ a:link, a:visited {
 }
 a:hover {
   color: #C3073F;
-  text-decoration: none;
 }
 a:active {
   color: #EFEFEF;
-  text-decoration: none;
 }
-.current-page {
+a.current-page {
   text-decoration: line-through #C3073F;
 }
 main {
@@ -77,10 +75,11 @@ li {
 }
 h1 {
   color: #C3073F;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
   text-align: center;
   margin-top: 200px;
+  margin-bottom: 100px;
 }
 h2 {
   font-size: 40px;
@@ -91,26 +90,31 @@ h2 {
 h3 {
   color: #C3073F;
   font-weight: bold;
-  font-size: 20px;
-  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 h4 {
-  color: #EFEFEF;
-  font-size: 16px;
+  color: #C2C2C2;
+  font-size: 20px;
   font-weight: normal;
   font-style: oblique;
-  text-align: center;
+  margin-top: 10px;
 }
 img {
   max-width: 100%;
 }
 .about {
-  color: #EFEFEF;
-  font-size: 16px;
-  margin: 100px 35px 100px 35px;
+  color: #C2C2C2;
+  font-size: 18px;
+  margin: 0 40px;
 }
-.col {
-  width: 50%;
+.col-1 {
+  width: 45%;
+  float: left;
+  /* margin-bottom: -5px; */
+}
+.col-2 {
+  width: 55%;
   float: left;
 }
 .resize {
@@ -125,92 +129,83 @@ img {
   font-style: italic;
 }
 .background {
-  width: 80%;
-  height: 500px;
+  width: 70%;
+  padding: 33px;
   background-color: #1A1A1D;
   margin: 0 auto;
-  position: relative;
-  margin-bottom: 50px;
-}
-.background-tour {
-  width: 50%;
-  background-color: #1A1A1D;
-  margin: 0 auto;
+  margin-bottom: 75px;
+  display: flow-root;
 }
 .col-album {
   width: 50%;
   float: left;
-  margin-bottom: 200px;
+  text-align: center;
 }
-.col-tracks {
-  width: 50%;
+.col-tracks-1 {
+  width: 25%;
   float: left;
-  margin-bottom: 200px;
+  margin-top: 150px;
+  padding: 0;
+}
+.col-tracks-2 {
+  width: 25%;
+  float: left;
+  margin-top: 150px;
+  padding: 0;
 }
 .album-img {
-  background: url(../images/concert8.jpg) no-repeat center center;
-  background-size: 100%;
+  background: url(../images/concert8.jpg) no-repeat top center;
+  background-size: 105%;
 }
-.album-img-l {
-  width: 400px;
-  bottom: 50px;
-  /* margin-left: 200px; */
-}
-.album-img-r {
-  width: 400px;
-  bottom: 50px;
-  /* margin-left: 200px; */
+.album-cover {
+  width: 390px;
 }
 .tracks {
-  color: #EFEFEF;
-  font-size: 16px;
+  color: #C2C2C2;
+  font-size: 17px;
   list-style-type: decimal;
+}
+.background-tour {
+  width: 70%;
+  background-color: #1A1A1D;
+  margin: 0 auto;
+  padding: 40px;
 }
 .tour-img {
   background: url(../images/concert7.jpg) no-repeat center center;
   background-size: 100%;
 }
-.tour {
-  color: #EFEFEF;
-  font-size: 16px
-}
 .tour-info {
   text-align: center;
 }
-.date {
-  font-size: 16px;
-  font-weight: bold;
-  color: #C3073F;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: -10px;
+ul {
+  padding: 0;
 }
-.date-start {
-  font-size: 16px;
+.date {
+  font-size: 17px;
   font-weight: bold;
   color: #C3073F;
   text-align: center;
-  margin-top: 75px;
-  margin-bottom: -10px;
+  margin-bottom: -5px;
 }
 .venue {
-  font-size: 16px;
-  color: #EFEFEF;
+  font-size: 17px;
+  color: #C2C2C2;
   text-align: center;
-  margin-bottom: -10px;
+  margin-bottom: -5px;
 }
 .location {
-  font-size: 16px;
+  font-size: 17px;
   font-style: italic;
-  color: #EFEFEF;
+  color: #C2C2C2;
   text-align: center;
+  margin-bottom: 40px;
 }
 .location-end {
-  font-size: 16px;
+  font-size: 17px;
   font-style: italic;
-  color: #EFEFEF;
+  color: #C2C2C2;
   text-align: center;
-  margin-bottom: 50px;
 }
 /* responsive design */
 /* @media screen and (max-width: 700px) {
